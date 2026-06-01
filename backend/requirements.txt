@@ -1,0 +1,39 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# Environment
+python-dotenv==1.0.1
+
+# Firebase
+firebase-admin==6.5.0
+
+# Google Cloud (transitive deps — pinned for reproducibility)
+google-cloud-firestore==2.16.0
+google-api-core==2.19.0
+
+# Data validation
+pydantic[email]==2.7.4
+pydantic-settings==2.3.4
+
+# HTTP (used by Firebase Admin internally)
+httpx==0.27.0
+requests==2.32.3
+
+# PDF processing (next module)
+pypdf==4.2.0
+langchain==0.2.5
+langchain-community==0.2.5
+chromadb==0.5.3
+sentence-transformers==3.0.1
+
+# NLP (next module)
+transformers==4.41.2
+torch==2.3.1
+
+# MongoDB (next module)
+motor==3.4.0
+pymongo==4.7.3
+
+# Async support
+anyio==4.4.0
