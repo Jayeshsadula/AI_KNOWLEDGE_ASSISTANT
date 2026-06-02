@@ -50,3 +50,17 @@ pip install -r requirements.txt
 ```
 
 Create `.env` file in `backend/`:
+Run backend:
+```bash
+python -m uvicorn app.main:app --reload
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Create `.env.local` in `frontend/`:
